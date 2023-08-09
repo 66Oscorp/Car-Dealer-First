@@ -1,0 +1,24 @@
+swiper-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+}
+swiper-container .slider1 {
+  background-image: url(..///img/background\ slider\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+}
+swiper-container .slider1 img {
+  width: 614px !important;
+  height: 515px !important;
+}
+swiper-container .slider2 {
+  background-image: url(../img/background\ 2.jpg);
+}
+swiper-container .slider2 img {
+  width: 614px !important;
+  height: 515px !important;
+}/*# sourceMappingURL=slider.css.map */

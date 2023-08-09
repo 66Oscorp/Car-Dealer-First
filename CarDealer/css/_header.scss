@@ -1,0 +1,943 @@
+//////////ESAS COLORLAR/////////
+$color1: #000000;
+$color2: #db2d2e;
+$color3: #FFF;
+$color4: #f8f8f8;
+$color5: #000;
+$color6: rgb(0, 0, 0);
+//////////ESAS COLORLAR/////////
+
+
+////////////BOOTSTRAPN ELAVE EDIYI OXELIKLER///////////
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+////////////BOOTSTRAPN ELAVE EDIYI OXELIKLER///////////
+#header {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+
+    
+    ////////////NAVBAR//////////////////////
+    #nav {
+       
+       
+
+        /////////MENUNUN ARXA HISESI///////////
+        /// 
+        
+        .nav {
+          
+            height: 85px;
+            background-color: $color3;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 8px;
+            .logo-pnj{
+              
+                width: 40px;
+            }
+
+            /////////MENUNUN ARXA HISESI///////////
+            .nav-menu {
+
+                /////////////ESAS MENU UL-LI-A/////////////////
+                .nav-ul {
+                    ul {
+
+                        li {
+                            justify-content: center;
+                            align-items: center;
+
+                            a {
+                                padding: 20px 15px;
+
+                                font-family: 'Heebo', sans-serif;
+                                font-size: 16px;
+                                font-weight: 800;
+                                color: $color1;
+                                transition: .5s;
+
+                                .hover-a {
+                                    color: #000;
+                                }
+
+                                &:hover {
+                                    color: $color2;
+                                }
+
+                                i {
+                                    padding: 0px 0px 0px 7px;
+                                    font-size: 10px;
+                                    margin-top: 0px;
+                                    opacity: 0.5;
+
+                                }
+                            }
+                        }
+                    }
+
+                    .nav-menu-li-1 {
+                        position: relative;
+
+                        &:hover .hover-bottun-1 {
+                            transform: translateY(0%) rotate(0deg);
+                            opacity: 1;
+                            visibility: visible;
+
+
+                        }
+
+                        .li-6 {
+
+                            position: relative;
+
+                            &:hover .hover-right-6 {
+                                transform: translateY(0%) rotate(0deg);
+                                opacity: 1;
+                                visibility: visible;
+
+
+                            }
+
+                        }
+                    }
+
+                    .nav-menu-li {
+                        position: relative;
+
+                        &:hover .hover-bottun {
+                            transform: translateY(0%) rotate(0deg);
+                            opacity: 1;
+                            visibility: visible;
+
+
+                        }
+
+                        ////////////PENCERE ICNDE PENCERE   ESAS LI////////
+                        .li-1 {
+                            padding-top: 20px;
+                            position: relative;
+
+                            &:hover .hover-right {
+                                transform: translateY(0%) rotate(0deg);
+                                opacity: 1;
+                                visibility: visible;
+
+
+                            }
+
+                        }
+
+                        .li-2 {
+                            position: relative;
+
+                            &:hover .hover-right-2 {
+                                transform: translateY(0%) rotate(0deg);
+                                opacity: 1;
+                                visibility: visible;
+
+
+                            }
+                        }
+
+                        .li-3 {
+
+                            position: relative;
+
+                            &:hover .hover-right-3 {
+                                transform: translateY(0%) rotate(0deg);
+                                opacity: 1;
+                                visibility: visible;
+
+
+                            }
+
+                        }
+
+                        .li-4 {
+
+                            position: relative;
+
+                            &:hover .hover-right-4 {
+                                transform: translateY(0%) rotate(0deg);
+                                opacity: 1;
+                                visibility: visible;
+
+
+                            }
+
+                        }
+
+
+                        ////////////PENCERE ICNDE PENCERE   ESAS LI////////
+                        .li-5 {
+
+                            padding-bottom: 20px;
+                        }
+                    }
+
+                    ////////////ESAS PENCERE /////////
+
+                    .hover-bottun {
+                        margin-top: 30px;
+                        width: 280px;
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        background-color: $color3;
+                        border-radius: 5px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .5s ease;
+                        transform: translateY(5%);
+
+
+                        .bag {
+                            width: 100%;
+                            height: 4px;
+                            background-color: $color2;
+                            border-radius: 20px 20px 0px 0px;
+                            opacity: 0.9;
+                        }
+
+
+                        li {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 20px;
+
+                        }
+
+                    }
+
+                    ////////////ESAS PENCERE-5 /////////
+                    .hover-bottun-1 {
+                        margin-top: 30px;
+                        width: 280px;
+                        position: absolute;
+                        top: 100%;
+                        right: 0;
+                        background-color: $color3;
+                        border-radius: 5px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .5s ease;
+                        transform: translateY(5%);
+
+                        .bag {
+                            width: 100%;
+                            height: 4px;
+                            background-color: $color2;
+                            border-radius: 20px 20px 0px 0px;
+                            opacity: 0.9;
+                        }
+
+
+                        li {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 20px;
+
+                        }
+
+                    }
+
+                    ////////////ESAS PENCERE -5 /////////
+                    //////////////////////////////////////////////////////////////////////////////////////
+
+                    ////////////ESAS PENCERE /////////
+
+                    ////////////ESAS PENCERE ICINDE KI PENCERE 1 /////////
+                    .hover-right {
+
+                        width: 280px;
+                        position: absolute;
+                        top: 0px;
+                        left: 280px;
+                        background-color: $color3;
+                        border-radius: 5px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .5s ease;
+                        transform: translateY(5%);
+
+                        .bag {
+                            width: 100%;
+                            height: 4px;
+                            background-color: $color2;
+                            border-radius: 20px 20px 0px 0px;
+                            opacity: 0.9;
+                        }
+
+                        li {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 20px;
+
+                        }
+
+                    }
+
+                    ////////////ESAS PENCERE ICINDE KI PENCERE 2 /////////                   
+                    .hover-right-2 {
+                        width: 280px;
+                        position: absolute;
+                        top: -20px;
+                        left: 280px;
+                        background-color: $color3;
+                        border-radius: 5px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .5s ease;
+                        transform: translateY(5%);
+
+                        .bag {
+                            width: 100%;
+                            height: 4px;
+                            background-color: $color2;
+                            border-radius: 20px 20px 0px 0px;
+                            opacity: 0.9;
+                        }
+
+                        .li-hov-1 {
+                            padding-top: 30px;
+                        }
+
+                        .li-hov-2 {
+                            padding-bottom: 30px;
+                        }
+
+                        li {
+                            padding-left: 20px;
+
+                        }
+
+                    }
+
+                    ////////////ESAS PENCERE ICINDE KI PENCERE 3/////////  
+                    .hover-right-3 {
+
+                        width: 280px;
+                        position: absolute;
+                        top: 0px;
+                        left: 280px;
+                        background-color: $color3;
+                        border-radius: 5px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .5s ease;
+                        transform: translateY(5%);
+
+                        .bag {
+                            width: 100%;
+                            height: 4px;
+                            background-color: $color2;
+                            border-radius: 20px 20px 0px 0px;
+                            opacity: 0.9;
+                        }
+
+                        .li4 {
+                            padding-bottom: 20px;
+                        }
+
+                        li {
+                            margin: 0;
+
+                            padding-left: 20px;
+
+                        }
+
+                    }
+
+                    ////////////ESAS PENCERE ICINDE KI PENCERE 4/////////                     
+                    .hover-right-4 {
+
+                        width: 280px;
+                        position: absolute;
+                        top: -10px;
+                        left: 280px;
+                        background-color: $color3;
+                        border-radius: 5px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .5s ease;
+                        transform: translateY(5%);
+
+                        .bag {
+                            width: 100%;
+                            height: 4px;
+                            background-color: $color2;
+                            border-radius: 20px 20px 0px 0px;
+                            opacity: 0.9;
+                        }
+
+                        .li1 {
+                            padding-top: 20px;
+                        }
+
+                        .li2 {
+                            padding-bottom: 20px;
+                        }
+
+                        li {
+
+                            padding-left: 20px;
+
+                        }
+
+                    }
+
+                    ////////////ESAS PENCERE ICINDE KI PENCERE 5/////////               
+                    .hover-right-6 {
+
+                        width: 280px;
+                        position: absolute;
+                        top: 0px;
+                        right: 280px;
+                        background-color: $color3;
+                        border-radius: 5px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .5s ease;
+                        transform: translateY(5%);
+
+                        .bag {
+                            width: 100%;
+                            height: 4px;
+                            background-color: $color2;
+                            border-radius: 20px 20px 0px 0px;
+                            opacity: 0.9;
+                        }
+
+                        li {
+
+                            padding-left: 20px;
+
+                        }
+
+                    }
+
+                }
+
+                /////////////ESAS MENU UL-LI-A////////////////
+
+                ///////////////////////////////////////////////////////////////////////////////////////////
+
+                ////////////SEARCH///////////////////
+                .nav-search-box {
+
+                    background-color: $color4;
+                    border-radius: 5px;
+
+                    .nav-input {
+
+                        input {
+                            background: none;
+                            border: none;
+                            outline: none;
+                            padding: 12px 20px;
+                            font-family: 'Heebo', sans-serif;
+                            font-size: 14px;
+                            font-weight: 100;
+                            color: $color5;
+                        }
+                    }
+
+                    .search {
+
+                        button {
+                            background: none;
+                            border: none;
+                            outline: none;
+
+                            i {
+                                padding: 12px 20px;
+                                color: $color2;
+                                transition: .5s;
+
+                                &:hover {
+                                    color: $color1;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                ////////////SEARCH///////////////////
+
+                ///////////////////////////////////////////////////////////////////////////////////////////            
+
+                /////////////SHOP-IKON//////////////
+                .nav-shop {
+                    margin-left: -30px;
+
+                    button {
+                        background: none;
+                        border: none;
+
+                        i {
+                            color: $color1;
+
+                        }
+                    }
+                }
+
+                /////////////SHOP-IKON//////////////
+
+                ////////////////////////////////////////////////////////////////////////////////////////////            
+                ////////////LO-ING/////////////////
+                .nav-Login {
+                    margin-right: 30px;
+
+                    h6 {
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 15px;
+                        font-weight: 300;
+                        color: $color1;
+
+                        a {
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            color: $color1;
+                            transition: .5s;
+
+                            &:hover {
+                                color: $color2;
+                            }
+                        }
+
+                        i {
+                            padding: 3px;
+                            font-size: 15px;
+                            margin-right: 4px;
+                            color: $color1;
+
+                        }
+                    }
+                }
+
+                ////////////LO-ING/////////////////
+            }
+        }
+
+        ////////////NAVBAR//////////////////////\
+        .mob-menu {
+            display: none;
+            transition: .5s;
+            position: relative;
+
+            .mobil-menu {
+                background-color: $color6;
+
+                .mob-nav {
+
+                    .bars {
+                        a{
+                            color: $color4;
+                            font-size:22px ;
+                            margin-right: 10px;
+
+                        }
+                    }
+
+                    .search {
+                        a{
+                            color: $color4;
+                            font-size:22px ;
+                            margin-left: 10px;
+font-weight: 300;
+                        }
+                    }
+                }
+            }
+
+            .bars-off {
+                
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: $color6;
+                height: 100vh;
+                transition: .5s;
+                transform: translateX(-700px);
+
+                &.active-menu {
+                    transition: .5s;
+                    transform: translateX(0px);
+
+
+                }
+
+                .bars-menu {
+                    overflow-block: scroll;
+                    background-color: $color6;
+                    height: 100%;
+                   
+
+                    .img-my {
+                        margin-top: 30px;
+                    }
+                }
+
+               
+
+            }
+
+
+        }
+
+    }
+
+}
+
+/////////////////////////////////////ACARDION MENU
+
+.akardion-menusu{
+    display: none;
+   
+    li{
+        padding-bottom: 10px;
+        a{
+            color:$color4;
+            font-weight: 600;
+            transition: .5s;
+            // margin-left: 30px;
+            padding: 10px;
+            font-size: 14px;
+           
+            &:hover{
+                color: $color2;
+            }
+        }
+    }
+}
+
+.home {
+    
+    a {
+        font-size: 14px;
+        font-family: 'Heebo', sans-serif;
+        color: #fff;
+        font-weight: 600;
+        transition: .5s;
+
+        &:hover {
+            color: $color2;
+        }
+    }
+
+    button {
+        margin-bottom: 3px;
+        border: none;
+        background-color: #ffffff20;
+        transition: .5s;
+        &:hover {
+            background-color: #ffffff15;
+        }
+        // ikonlar
+        i {
+            padding: 10px 10px;
+            margin-left: 6px;
+            opacity: 0.5;
+            color: #ffffff;
+            transform: translateY(0%);
+            transition: .5s;
+
+            
+
+
+        }
+        .active-btn {
+
+            transform: translateY(0%) rotate(90deg);
+
+        }
+        
+    }
+}
+
+.akardion-menu{
+    margin-top: 40px;
+}
+.search-menu {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 10px;
+
+    input {
+        background: none;
+        border: none;
+        outline: none;
+        padding: 12px 20px;
+        font-family: 'Heebo', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+        color: #000;
+        width: 340px;
+        height: 45px;
+    }
+
+    i {
+
+        color: $color1;
+        transition: .5s;
+        padding: 16px;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: $color1;
+            color: #fff;
+        }
+    }
+}
+.bars-bag{
+   transition: .5s;
+    width: 100%;
+}
+.clous {
+    button {
+        padding: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-top: 20px;
+        margin-left: 25px;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        background-color: $color2;
+    }
+
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper1{
+      background-image: url(img/background\ slider\ 1.jpg)
+
+  }
+  .swiper1{
+      background-image: url(img/background\ 2.jpg)
+  }
+
+      .scale-up-hor-right {
+        margin-right: 30px;
+        z-index: 6;
+        width: 735px;
+    height: 494px;
+        animation: scale-up-hor-right 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+    }
+    @keyframes scale-up-hor-right {
+        0% {
+          transform: scaleX(0.4);
+          transform-origin: 100% 100%;
+        }
+        100% {
+          transform: scaleX(1);
+          transform-origin: 100% 100%;
+        }
+      }
+      
+  .gle{
+    margin-left: 40px;
+    width: 604px;
+    height: 375px;
+  }
+  .textef{
+    text-align: left;
+    width: 550px;
+    left: 30px;
+  }
+  .tracking-in-contract-bck{
+    text-align: left;
+    flex-wrap: nowrap;
+    font-size: 50px;
+    
+  
+    font-size: 60px;
+margin: auto;
+    font-weight: bold;
+    color: #FFF;
+   
+        animation: tracking-in-contract-bck 3.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both !important;
+    
+
+   
+  }
+  
+    .tracking-in-expand-fwd {
+        white-space: nowrap;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+        animation: tracking-in-expand-fwd 3.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+    }
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  .tracking-in-expand-fwd-bottom {
+
+    z-index: 10;
+  text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+	animation: tracking-in-expand-fwd-bottom 3.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+@keyframes tracking-in-expand-fwd-bottom {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-700px) translateY(500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+.puff-in-tr {
+	animation: puff-in-tr 2.78s cubic-bezier(0.470, 0.000, 0.745, 0.715) infinite;
+
+
+    z-index: 10;
+    margin-right: -490px;
+    margin-top: 90px !important;
+    width: 601px !important;
+    height: 316px !important;
+}
+@keyframes puff-in-tr {
+    0% {
+      transform: scale(2);
+      transform-origin: 100% 0%;
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: 100% 0%;
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  .sls{
+    display: flex;
+    justify-content: center;
+  
+    font-size: 60px;
+margin: auto;
+    font-weight: bold;
+    color: #FFF;
+  }
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.carlogo{
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    margin-left: 400px;
+    margin-top: 90px;
+position: absolute;
+    z-index: 3;
+    width: 1120px; 
+    height: 493px;
+}
